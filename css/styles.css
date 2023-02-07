@@ -10,14 +10,8 @@
             
 body {
              font-family: 'Roboto', sans-serif; 
-             font-style: normal; 
              background-color: var(--main-bg-color);  
              color: var(--main-basic-color-text);  
-}
-a:hover,
-a:focus {
-              color: var(--main-color-hover); 
-              text-decoration: none;           
 }
 
 ul {
@@ -32,24 +26,49 @@ ul {
               letter-spacing: 0.03em;
               text-transform: uppercase;
               color: var(--main-color-hover); 
+              text-decoration: none;
 }
 .logo-second {
 
              color: var(--main-title-color);
+             text-decoration: none; 
 }
-.menu-navigation {
-                          
+.logo:hover,
+.logo:focus,
+.logo-second:hover,
+.logo-second:focus {
+              color: var(--main-color-hover);
+            
+              
+}
+
+.studio,
+.portfolio,
+.contacts {
               font-weight: 500;
               font-size: 16px;
               line-height: 1.5;
               letter-spacing: 0.02em;
-              color: var(--main-title-color);              
-                  
+              color: var(--main-title-color); 
+              text-decoration:none;         
+   
 }
-.menu-navigation:hover,
-.menu-navigation:focus {
-                     color: var(--main-color-hover)
+
+.studio:hover,
+.studio:focus {
+                     color: var(--main-color-hover);
+                     
  }
+ .portfolio:hover,
+ .portfolio:focus {
+  color: var(--main-color-hover);
+ }
+ .contacts:hover,
+ .contacts:focus
+ {
+  color: var(--main-color-hover);
+ }
+
 
  .adress-mail,
  .adress-tel {
@@ -58,6 +77,14 @@ ul {
              font-size: 16px;
              line-height: 1.5;
              letter-spacing: 0.02em;
+             text-decoration: none;
+ }
+ .adress-mail:hover,
+ .adress-tel:hover,
+ .adress-mail:focus,
+ .adress-tel:focus {
+                color: var(--main-color-hover);
+               
  }
 
 .hero {
@@ -74,7 +101,7 @@ ul {
            
 }
 .btn-service {
-              
+              font-family: 'Roboto', sans-serif;
               background-color: var(--main-color-hover);
               box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
               border-radius: 4px;  
@@ -120,7 +147,7 @@ ul {
               background-color: var(--main-bg-team);          
 }
 .header-team {
-              font-weight: 700;
+              
               font-size: 36px;
               line-height: 1.111;
               letter-spacing: 0.02em;
@@ -164,6 +191,10 @@ ul {
               line-height: 1.166;
               letter-spacing: 0.03em;
               color: var(--main-bg-team);
+}
+.logo-second-footer:hover,
+.logo-second-footer:focus {
+            color: var(--main-color-hover);
 }
 .btn-filters {
 
